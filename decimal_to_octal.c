@@ -1,6 +1,6 @@
 
 /*Decimal to octal*/
-main()
+int main()
 {
 	int decimal;
 	
@@ -8,5 +8,7 @@ main()
 	printf("Enter a number: ");
 	scanf("%d",&decimal);
 	printf("octal=%o",decimal);
+	
+	return (0);
 }
 	
